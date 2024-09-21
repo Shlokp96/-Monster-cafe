@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+.redborder{border: 2px solid red;}
+.blueborder{border: 2px solid blue;}
+.greenborder{border: 2px solid green;}
+.goldborder{border: 2px solid gold;}
+.purpleborder{border: 2px solid purple;}
+
+
+.max-height{min-height: 1080px;}
+.min-height{min-height: 780px;}
+.s-height{min-height: 700px;}
+
+.min-width{width: 50%;}
+.max-width{width: 100%;}
+
+
+@font-face {
+    font-family: nasa;
+    src: url(nasalization/nasalization-rg.otf);
+}

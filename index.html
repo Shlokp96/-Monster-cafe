@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cafe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+
+    <div style=" background-color:rgb(142, 77, 37) ;" class="first-container">
+
+        <nav style="background-color:  rgba(46, 44, 42, 0.315)"
+            class="navbar navbar-expand-lg .bg-transparent fixed-top ">
+            <div class="container-fluid">
+                <div>
+                    <img style="width: 80px;" src="logo.png" alt="">
+
+                </div>
+                <a style="font-size: 30px; font-family:nasa; color: rgb(157, 105, 37);" class="navbar-brand"
+                    href="#">Monster</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a style="color: rgb(157, 105, 37);" class="nav-link active" aria-current="page"
+                                href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a style="color: rgb(157, 105, 37);" class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a style="color: rgb(157, 105, 37);" class="nav-link dropdown-toggle" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a style="color: rgb(157, 105, 37);" class="nav-link disabled"
+                                aria-disabled="true">Disabled</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button style="background-color: rgb(157, 105, 37); border: none;" class="btn btn-outline-dark"
+                            type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <!--carousel-section  -->
+
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="1000">
+                    <h1
+                        style="position: absolute; font-size: 70px; color:rgb(157, 105, 37); font-family: nasa; bottom: 50%; right: 35%; background-color: rgba(255, 255, 255, 0.319) ; border-radius: 10px;">
+                        Your neighborhood sanctuary for exquisite coffe</h1>
+                    <img src="img-1.jpg" class="d-block w-100 redborder" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <h1
+                        style="position: absolute; font-size: 70px; color:rgb(157, 105, 37); font-family: nasa; bottom: 50%; right: 35%; background-color: rgba(255, 255, 255, 0.319) ; border-radius: 10px;">
+                        Your neighborhood sanctuary for exquisite coffe</h1>
+                    <img src="img-2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <h1
+                        style="position: absolute; font-size: 70px; color:rgb(157, 105, 37); font-family: nasa; bottom: 50%; right: 35%; background-color: rgba(255, 255, 255, 0.319) ; border-radius: 10px;">
+                        Your neighborhood sanctuary for exquisite coffe</h1>
+                    <img src="img-3.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+    </div>
+
+    <!--second-section  -->
+
+    <div style="min-height:200px ; background-color:rgb(142, 77, 37) ; " class="second-section container-fluid  d-flex align-items-center justify-content-center flex-md-row flex-column">
+
+        <div style="height: 200px; border: 2px solid black;" class="calinder col-4 d-flex align-items-center justify-content-center">
+
+            <div style="height: 200px; "  class="img-section col-4 d-flex align-items-center justify-content-center">
+
+                <i style="font-size: 70px;" class="bi bi-calendar-event"></i>
+
+            </div>
+
+            <div style="height: 200px;" class="text-section col-8 d-flex align-items-center justify-content-center flex-column ">
+
+                <h5>Mon-fri 8 AM to 8 PM</h5>
+                <h5>Sat-Sun 7 AM to 9 PM</h5>
+
+            </div>
+
+        </div>
+
+        <div style="height: 200px; border: 2px solid black;" class="calinder col-4  d-flex align-items-center justify-content-center">
+
+            <div style="height: 200px;"  class="img-section col-4 d-flex align-items-center justify-content-center">
+
+                <i  style="font-size: 70px;" class="bi bi-geo-alt-fill"></i>
+
+            </div>
+
+            <div style="border: 2px" class="text-section col-8 d-flex align-items-center justify-content-center flex-column ">
+
+                <h5>123 Coffee Lean</h5>
+                <h5>Bean Town, CA 3045</h5>
+
+            </div>
+
+        </div>
+
+        <div style="height: 200px; border: 2px solid black;" class="calinder col-4 d-flex align-items-center justify-content-center">
+
+            <div style="height: 200px; "  class="img-section col-4 d-flex align-items-center justify-content-center">
+
+                <i  style="font-size: 70px;" class="bi bi-chat-left-text-fill"></i>
+
+            </div>
+
+            <div style=" height: 200px;" class="text-section col-8 d-flex align-items-center justify-content-center flex-column ">
+
+                <h5>(+91)7016789345</h5>
+                <h5>Monster234@gmail.com</h5>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>
